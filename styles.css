@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+}
+
+.title-register {
+    position: absolute;
+    font-size: 16px;
+    top: 4px;
+    background-color: white;
+}
+
+label {
+    display: block;
+    color: #9CEC5B;
+    font-size: 20px;
+}
+
+input {
+    margin-bottom: 18px;
+    border: 2px solid #D1D646;
+}
+
+.input-inline {
+    display: inline;
+}
+
+.input-block {
+    display: block;
+}
+textarea {
+    display: block;
+    margin-bottom: 18px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.button-clear:hover {
+    background-color: #7e4a8c;
+    width: 70px;
+    height: 30px;
+    color: #babf26;
+    border: 2px solid #70731f;
+}
+
+.button-submit:hover {
+    background-color: #7e4a8c;
+    width: 110px;
+    height: 30px;
+    color: #babf26;
+    border: 2px solid #70731f;
+}
